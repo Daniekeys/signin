@@ -1,0 +1,42 @@
+.place-center{
+ display: grid;
+ width: 100%;
+ height: auto;
+ min-height: 100vh;
+ place-items: center;
+ /* background-color: rebeccapurple; */
+}
+
+.form-container{
+ width: 60%;
+ height: 70vh;
+ background-color: white;
+ color: white;
+ padding: 2rem;
+ display: grid;
+ place-items: center;
+
+}
+.form-wrapper{
+ width: 80%;
+}
+
+@media screen and (max-width:770px) {
+ .form-container{
+ width: 80%;
+ height: auto;
+ background-color: white;
+ color: white;
+
+}
+.form-wrapper{
+ width: 100%;
+}
+}
+@media screen and (max-width:600px) {
+.form-container{
+ width: 100%;
+ height: auto;
+}
+
+}
