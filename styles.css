@@ -14,6 +14,10 @@
 .mr-1{
  margin-right: 0.75rem;
 }
+.bg-grand{
+  background: #f0f0ff;
+  
+}
 
 .form-container{
  width: 60%;
@@ -93,6 +97,71 @@
  width: 80%;
 }
 
+.dashboard-container{
+ width: 100%;
+ height: 100vh;
+ min-height: 100vh;
+
+}
+.mr-3{
+ margin-right: 1rem;
+}
+.sidebar{
+     background: #25233c;
+     width: 100%;
+     height: 100vh;
+     display: flex;
+     flex-direction: column;
+     /* justify-content: center; */
+     align-items: center;
+}
+.sidebar-link{
+ text-decoration: none;
+ color: white;
+ 
+}
+.profile-img-container{
+ display: flex;
+ justify-content: flex-end;
+ padding: 1rem 3rem;
+
+}
+.profile-avatar{
+ width: 60px;
+ height: 60px;
+ border-radius: 50%;
+ cursor: pointer;
+
+
+}
+
+
+.profile-list-container{
+ display: flex;
+ justify-content: flex-end;
+ background: transparent;
+ width: inherit;
+ 
+}
+.listed{
+ list-style: none;
+ display: flex;
+ flex-direction: column;
+ background-color: white;
+ width: 200px;
+ height: auto;
+ padding: 1rem;
+}
+.listing{
+ list-style: none;
+ padding: 1rem;
+
+}
+.profile-list{
+ color: #333333;
+ text-decoration: none;
+ cursor: pointer;
+}
 @media screen and (max-width:770px) {
  .form-container{
  width: 80%;
