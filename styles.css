@@ -157,11 +157,29 @@
  padding: 1rem;
 
 }
+.card-img-top{
+ height: 200px;
+ width: 100%;
+}
+.make-img{
+ z-index: 500;
+ margin-top: -7rem;
+ border-radius: 50%;
+ height: auto;
+ width: 100%;
+}
 .profile-list{
  color: #333333;
  text-decoration: none;
  cursor: pointer;
 }
+.card{
+ border: none;
+}
+/* .mt-negative{
+ z-index: 600;
+ margin-top: -2rem;
+} */
 @media screen and (max-width:770px) {
  .form-container{
  width: 80%;
